@@ -216,7 +216,6 @@
     "webpack": "^5.105.4",
     "webpack-bundle-analyzer/ws": "^7.5.10",
     "webpack-dev-server/express": "^4.21.0",
-    "minimatch": "^3.0.5",
     "underscore.string": "^3.3.6",
     "undici": "^6.21.1"
   },
