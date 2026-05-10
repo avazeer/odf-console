@@ -90,7 +90,7 @@
     "@aws-sdk/s3-request-presigner": "3.823.0",
     "@openshift-console/dynamic-plugin-sdk": "1.8.0",
     "@openshift-console/dynamic-plugin-sdk-internal": "1.0.0",
-    "@openshift-console/dynamic-plugin-sdk-webpack": "4.21.0",
+    "@openshift-console/dynamic-plugin-sdk-webpack": "4.20.0",
     "@patternfly/patternfly": "5.4.2",
     "@patternfly/react-charts": "7.4.8",
     "@patternfly/react-code-editor": "5.4.15",
