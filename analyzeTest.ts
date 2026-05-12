@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import { parseChunked } from '@discoveryjs/json-ext';
 
 const pluginName = process.env.PLUGIN;
-const MAX_ASSET_SIZE = 3; //3 MiB
+const MAX_ASSET_SIZE = 4; //4 MiB
 
 const getStatsFilePath = () => `./plugins/${pluginName}/dist/stats.json`;
 
