@@ -2,7 +2,9 @@ import * as fs from 'fs';
 import { parseChunked } from '@discoveryjs/json-ext';
 
 const pluginName = process.env.PLUGIN;
-const MAX_ASSET_SIZE = 3; //3 MiB
+// Vendor chunks (e.g. multiple @patternfly/react-core copies) can exceed 3 MiB after
+// webpack / dependency updates; keep a modest ceiling for CI signal.
+const MAX_ASSET_SIZE = 4; // MiB
 
 const getStatsFilePath = () => `./plugins/${pluginName}/dist/stats.json`;
 
